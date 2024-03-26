@@ -122,6 +122,11 @@ console.log(`(f) ${fSequencia}`); // Resposta 20
 
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada? */
 
+/*Resposta: ligaria o primeiro interruptor e iria na sala ver se a lampada está acesa, saio da sala e desligo o primeiro interruptor,
+ligo o segundo interruptor e deixo ligado por um tempo, desligo o segundo interruptor e vou na sala verificar se a lampada esta quente
+se estiver quente é o segundo interruptor e se estiver fria é o terceiro interruptor*/
+
+
 /* 5) Escreva um programa que inverta os caracteres de um string.
 
 
