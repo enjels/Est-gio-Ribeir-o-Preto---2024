@@ -16,15 +16,15 @@ imprimir(SOMA);
 
 
 
-Ao final do processamento, qual será o valor da variável SOMA? */
+Ao final do processamento, qual será o valor da variável SOMA? RESPOSTA (91) */
 
-let INDICE = 13, SOMA = 0, K = 0;
+// let INDICE = 13, SOMA = 0, K = 0;
 
-while (K < INDICE) {
-    K = K + 1;
-    SOMA = SOMA + K;
-}
-console.log(SOMA);
+// while (K < INDICE) {
+//     K = K + 1;
+//     SOMA = SOMA + K;
+// }
+// console.log(SOMA);
 
 
 
@@ -55,6 +55,20 @@ e) 1, 1, 2, 3, 5, 8, ____
 f) 2,10, 12, 16, 17, 18, 19, ____
 
 */
+let contador = 0;
+let number = 2
+let resultado = 1
+
+let b =[]
+
+while (contador <= 6) {
+    contador++
+    b.push(resultado = resultado * 2)
+    console.log(resultado)
+}
+//console para exibir toda sequencia em um array
+console.log(b)
+
 
 /* 4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
 
