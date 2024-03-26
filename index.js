@@ -49,7 +49,7 @@ function fibonacciChecker(number) {
   }
   return `${number} não pertence à sequência de Fibonacci.`;
 }
-console.log(fibonacciChecker(21));
+console.log(`2) ${fibonacciChecker(21)}`);
 
 //3) Descubra a lógica e complete o próximo elemento:
 
@@ -122,16 +122,29 @@ console.log(`(f) ${fSequencia}`); // Resposta 20
 
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada? */
 
-/*Resposta: ligaria o primeiro interruptor e iria na sala ver se a lampada está acesa, saio da sala e desligo o primeiro interruptor,
+console.log(`4) Resposta: ligaria o primeiro interruptor e iria na sala ver se a lampada está acesa, saio da sala e desligo o primeiro interruptor,
 ligo o segundo interruptor e deixo ligado por um tempo, desligo o segundo interruptor e vou na sala verificar se a lampada esta quente
-se estiver quente é o segundo interruptor e se estiver fria é o terceiro interruptor*/
+se estiver quente é o segundo interruptor e se estiver fria é o terceiro interruptor`);
 
 
-/* 5) Escreva um programa que inverta os caracteres de um string.
+/*5) Escreva um programa que inverta os caracteres de um string.
 
 
 IMPORTANTE:
 
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 
+
+
 b) Evite usar funções prontas, como, por exemplo, reverse; */
+
+function invertCharacters(word) {
+  let wordInverse = "";
+
+  for (let i = word.length - 1; i >= 0; i--) {
+    wordInverse = wordInverse + word[i];
+  }
+  return wordInverse;
+}
+console.log(`5)${invertCharacters("frase grande ")}`);
+
