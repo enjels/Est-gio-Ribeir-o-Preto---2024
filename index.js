@@ -17,13 +17,13 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA? RESPOSTA (91) */
 
-// let INDICE = 13, SOMA = 0, K = 0;
+// let INDICE = 13, SOMA = 0, K = 0
 
 // while (K < INDICE) {
-//     K = K + 1;
-//     SOMA = SOMA + K;
+//     K = K + 1
+//     SOMA = SOMA + K
 // }
-// console.log(SOMA);
+// console.log(SOMA)
 
 
 
@@ -42,35 +42,32 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 
 
 //a) 1, 3, 5, 7, ___
-let aCounter = 0;
-let aNumber = 2;
-let aResult = 1;
 
-let a = [];
+let aSequencia = [1, 3, 5, 7];
+let aEndNumberUnknown = aSequencia[aSequencia.length - 1]
+let aNextNumberUnknown = aEndNumberUnknown + 2
 
-while (bCounter <= 6) {
-  aCounter++;
-  a.push((aResult = aResult * 1));
-  console.log(aResult);
-}
+aSequencia.push(aNextNumberUnknown)
+// Resposta 9
+console.log(aSequencia)
 
 
 //b) 2, 4, 8, 16, 32, 64, ____
-let bCounter = 0;
-let bNumber = 2;
-let bResult = 1;
+let bSequencia = [2, 4, 8, 16, 32, 64]
+let bEndNumberUnknown = bSequencia[bSequencia.length - 1]
+let bNextNumberUnknown = bEndNumberUnknown * 2
 
-let b =[]
-
-while (bCounter <= 6) {
-  bCounter++;
-  b.push(bResult = bResult * 2);
-  // console.log(resultado)
-}
-//console para exibir toda sequencia em um array
-// console.log(b)
+bSequencia.push(bNextNumberUnknown)
+// Resposta 128
+console.log(bSequencia)
 
 //c) 0, 1, 4, 9, 16, 25, 36, ____
+let cSequencia = [0, 1, 4, 9, 16, 25, 36]
+let cNextNumberUnknown = cSequencia.length * cSequencia.length
+
+cSequencia.push(cNextNumberUnknown)
+// Resposta 128
+console.log(cSequencia)
 
 //d) 4, 16, 36, 64, ____
 
