@@ -15,7 +15,6 @@ SOMA = SOMA + K;
 imprimir(SOMA);
 
 
-
 Ao final do processamento, qual será o valor da variável SOMA? RESPOSTA (91) */
 
 // let INDICE = 13, SOMA = 0, K = 0;
@@ -38,36 +37,49 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 
 
 
-/* 3) Descubra a lógica e complete o próximo elemento:
+//3) Descubra a lógica e complete o próximo elemento:
 
 
 
-a) 1, 3, 5, 7, ___
+//a) 1, 3, 5, 7, ___
+let aCounter = 0;
+let aNumber = 2;
+let aResult = 1;
 
-b) 2, 4, 8, 16, 32, 64, ____
+let a = [];
 
-c) 0, 1, 4, 9, 16, 25, 36, ____
+while (bCounter <= 6) {
+  aCounter++;
+  a.push((aResult = aResult * 1));
+  console.log(aResult);
+}
 
-d) 4, 16, 36, 64, ____
 
-e) 1, 1, 2, 3, 5, 8, ____
-
-f) 2,10, 12, 16, 17, 18, 19, ____
-
-*/
-let contador = 0;
-let number = 2
-let resultado = 1
+//b) 2, 4, 8, 16, 32, 64, ____
+let bCounter = 0;
+let bNumber = 2;
+let bResult = 1;
 
 let b =[]
 
-while (contador <= 6) {
-    contador++
-    b.push(resultado = resultado * 2)
-    console.log(resultado)
+while (bCounter <= 6) {
+  bCounter++;
+  b.push(bResult = bResult * 2);
+  // console.log(resultado)
 }
 //console para exibir toda sequencia em um array
-console.log(b)
+// console.log(b)
+
+//c) 0, 1, 4, 9, 16, 25, 36, ____
+
+//d) 4, 16, 36, 64, ____
+
+//e) 1, 1, 2, 3, 5, 8, ____
+
+//f) 2,10, 12, 16, 17, 18, 19, ____
+
+
+
 
 
 /* 4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
